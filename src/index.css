@@ -1,0 +1,14 @@
+body, html {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#root {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}

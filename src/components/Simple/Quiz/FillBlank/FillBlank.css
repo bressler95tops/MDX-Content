@@ -1,0 +1,29 @@
+.os101_simpleFillBlank {
+    display: block;
+    width: 100%;
+}
+
+.os101_simpleFillBlank h3 {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.os101_simpleFillBlank p {
+    display: block;
+    width: 100%;
+}
+
+.os101_simpleFillBlank .os101_simpleFillBlank_interactive {
+    box-sizing: border-box;
+    background-color: #E1E1E1;
+    border: 1px solid #CCC;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    -webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+}

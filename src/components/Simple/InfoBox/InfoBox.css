@@ -1,0 +1,12 @@
+.os101_simpleInfoBox {
+    background-color: var(--bg-dark) !important;
+    color: #FFF !important;
+    border: none !important;
+}
+
+.os101_simpleInfoBox p {
+    color: #FFF !important;
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+    font-weight: 700 !important;
+}

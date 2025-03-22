@@ -1,0 +1,259 @@
+.os101_simpleQuoteImage {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.os101_simpleQuoteImage .os101_simpleQuoteImage_overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+.os101_simpleQuoteImage .os101_simpleQuoteImage_content {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.os101_simpleQuoteImage .os101_simpleQuoteImage_content h4 {
+  color: #FFF !important;
+}
+
+.os101_simpleQuoteImage .os101_simpleQuoteImage_content p {
+    margin-bottom: 0 !important;
+    color: #FFF !important;
+    opacity: 0.8;
+}
+
+.os101_simpleQuoteImage .os101_simpleQuoteImage_content p a {
+    color: #FFF !important;
+}
+
+.os101_simpleSingleFigure {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer img {
+    display: block;
+    margin: 0 !important;
+    width: 100%;
+    height: auto;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer.hasCaption img {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: var(--bg-dark);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_caption {
+    display: block;  
+    height: auto;
+    background-color: transparent;
+    color: #FFF !important;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_link {
+    display: block;
+    box-sizing: border-box;
+}
+
+.os101_simpleDoubleFigure, .os101_simpleTripleFigure {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.os101_simpleDoubleFigure .os101_simpleDoubleFigure_column, .os101_simpleTripleFigure .os101_simpleTripleFigure_column {
+    display: block;
+}
+
+@media(max-width: 767.9px) {
+    .os101_simpleQuoteImage {
+        min-height: initial;
+        height: auto;
+    }
+
+    .os101_simpleQuoteImage .os101_simpleQuoteImage_content {
+        position: relative;
+    }
+
+    .os101_simpleSingleFigure.thumb .os101_simpleSingleFigure_imageContainer {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .os101_simpleSingleFigure.small .os101_simpleSingleFigure_imageContainer {
+        max-width: 350px;
+    }
+    
+    .os101_simpleSingleFigure.medium .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+    
+    .os101_simpleSingleFigure.large .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+    
+    .os101_simpleSingleFigure.full .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+
+    .os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_caption {
+        width: 100%;
+    }
+    
+    .os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_link {
+        width: 100%;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .os101_simpleDoubleFigure .os101_simpleDoubleFigure_column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .os101_simpleTripleFigure .os101_simpleTripleFigure_column {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media(min-width: 768px) {
+    .os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_caption {
+        width: calc(100% - 80px);
+        padding-right: 3px;
+    }
+    
+    .os101_simpleSingleFigure .os101_simpleSingleFigure_imageContainer .os101_simpleSingleFigure_captionContainer .os101_simpleSingleFigure_link {
+        width: 80px;
+        text-align: right;
+    }
+
+    .os101_simpleDoubleFigure .os101_simpleDoubleFigure_column {
+        width: calc(50% - 15px);
+        margin-right: 15px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991.9px) {
+    .os101_simpleQuoteImage {
+        min-height: 350px;
+    }
+
+    .os101_simpleQuoteImage .os101_simpleQuoteImage_content {
+        position: absolute;
+    }
+
+    .os101_simpleSingleFigure.thumb .os101_simpleSingleFigure_imageContainer {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .os101_simpleSingleFigure.small .os101_simpleSingleFigure_imageContainer {
+        max-width: 350px;
+    }
+    
+    .os101_simpleSingleFigure.medium .os101_simpleSingleFigure_imageContainer {
+        max-width: 768px;
+    }
+    
+    .os101_simpleSingleFigure.large .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+    
+    .os101_simpleSingleFigure.full .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+
+    .os101_simpleTripleFigure .os101_simpleTripleFigure_column {
+        width: calc(50% - 15px);
+        margin-right: 15px;
+    }
+}
+
+@media(min-width: 992px) {
+    .os101_simpleQuoteImage {
+        min-height: 400px;
+    }
+
+    .os101_simpleQuoteImage .os101_simpleQuoteImage_content {
+        position: absolute;
+    }
+
+    .os101_simpleSingleFigure.thumb .os101_simpleSingleFigure_imageContainer {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .os101_simpleSingleFigure.small .os101_simpleSingleFigure_imageContainer {
+        max-width: 350px;
+    }
+    
+    .os101_simpleSingleFigure.medium .os101_simpleSingleFigure_imageContainer {
+        max-width: 768px;
+    }
+    
+    .os101_simpleSingleFigure.large .os101_simpleSingleFigure_imageContainer {
+        max-width: 1025px;
+    }
+    
+    .os101_simpleSingleFigure.full .os101_simpleSingleFigure_imageContainer {
+        max-width: 100%;
+    }
+
+    .os101_simpleTripleFigure .os101_simpleTripleFigure_column {
+        width: calc(33.3% - 15px);
+        margin-right: 15px;
+    }
+
+}

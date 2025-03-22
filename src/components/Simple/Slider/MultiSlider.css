@@ -1,0 +1,89 @@
+.os101_simpleSlider.os101_multiSlider .slick-slide div {
+    box-sizing: border-box;
+}
+
+.os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item:not(.multi) {
+    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: auto;
+    -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+}
+
+.os101_simpleSlider.os101_multiSlider .os101_simpleSlider_inner {
+    max-width: 992px;
+}
+
+.os101_simpleSlider.os101_multiSlider .os101_simpleArrowButton.left {
+    left: -50px;
+}
+
+.os101_simpleSlider.os101_multiSlider .os101_simpleArrowButton.right {
+    right: -50px;
+}
+
+.os101_simpleSlider.os101_multiSlider div div.os101_simpleSlider_item .os101_multiSlider_holder {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: auto;
+    -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+}
+
+.os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .os101_multiSlider_front, .os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .os101_multiSlider_back {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: calc(300px - 60px);
+    justify-content: center;
+    align-items: center;
+}
+
+.os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .react-card-flip h2:after, .os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .react-card-flip h3:after, .os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .react-card-flip h4:after, .os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .react-card-flip h5:after, .os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item .react-card-flip h6:after {
+    display: none;
+}
+
+.os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item button {
+    max-width: 100px;
+}
+
+.os101_simpleSlider.os101_multiSlider .slick-slide div div.os101_simpleSlider_item h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media(max-width: 767.9px) {
+    .os101_simpleSlider.os101_multiSlider .slick-slide div:not(.os101_multiSlider_holder):not(.os101_simpleSlider_item):not(.react-card-flip):not(.react-card-flipper):not(.react-card-front):not(.react-card-back):not(.os101_multiSlider_front):not(.os101_multiSlider_back):not(.os101_simpleSingleFigure):not(.os101_simpleSingleFigure_imageContainer):not(.os101_simpleSingleFigure_captionContainer):not(.os101_simpleSingleFigure_caption) {
+        padding: 0px;
+    }
+
+    .os101_simpleSlider.os101_multiSlider .os101_simpleSlider_inner {
+        padding: 0px;
+    }
+}
+
+@media(min-width: 768px) {
+    .os101_simpleSlider.os101_multiSlider .slick-slide div:not(.os101_multiSlider_holder):not(.os101_simpleSlider_item):not(.react-card-flip):not(.react-card-flipper):not(.react-card-front):not(.react-card-back):not(.os101_multiSlider_front):not(.os101_multiSlider_back):not(.os101_simpleSingleFigure):not(.os101_simpleSingleFigure_imageContainer):not(.os101_simpleSingleFigure_captionContainer):not(.os101_simpleSingleFigure_caption) {
+        padding: 12px;
+    }
+
+    .os101_simpleSlider.os101_multiSlider .os101_simpleSlider_inner {
+        padding: 25px;
+    }
+}

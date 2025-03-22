@@ -1,0 +1,105 @@
+.os101_simpleMultipleMatch {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    margin-bottom: 24px;
+    border: 1px solid #CCC;
+    background-color: #E1E1E1;
+    max-width: 768px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+}
+
+.os101_simpleMultipleMatch_title {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatch_draggables, .os101_simpleMultipleMatch .os101_simpleMultipleMatch_droppables {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable button, .os101_simpleMultipleMatch .os101_simpleMultipleMatchable div.os101_simpleMultipleMatch_dropInner {
+    display: flex;
+    flex-flow: column wrap;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    font-family: var(--font-other);
+    font-size: 13.5px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable button {
+    background-color: var(--primary-button-bg);
+    color: #FFF;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable div.os101_simpleMultipleMatch_dropInner {
+    background-color: #FFF;
+    color: #222;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable .os101_simpleMultipleMatch_dropLabel {
+    display: block;
+    border: none;
+    width: 100%;
+    font-family: var(--font-title);
+    font-size: 13.5px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+}
+
+.os101_simpleMultipleMatch .os101_simpleMultipleMatchable div.os101_simpleMultipleMatch_dropInner .os101_simpleMultipleMatch_dropDraggables {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-family: var(--font-title);
+    font-size: 13.5px;
+    line-height: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #222;
+    text-align: center;
+    border: 1px dashed #AAA;
+    margin: 4px;
+}

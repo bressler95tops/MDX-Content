@@ -1,0 +1,45 @@
+.os101_simpleMultipleChoice {
+    display: block;
+    width: 100%;
+}
+
+.os101_simpleMultipleChoice h3 {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.os101_simpleMultipleChoice form {
+    box-sizing: border-box;
+    background-color: #E1E1E1;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+}
+
+.os101_simpleMultipleAnswer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.os101_simpleMultipleAnswer input {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.os101_simpleMultipleAnswer label {
+    display: block;
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding-left: 7px;
+}

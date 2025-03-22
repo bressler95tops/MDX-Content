@@ -1,0 +1,122 @@
+.os101_simpleQuiz {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    width: 100%;
+    background-color: var(--bg-dark);
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 5px;
+    min-height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-size: 50px auto;
+    background-position: center center;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.os101_simpleQuiz .hiddenPercentage {
+    display: none;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_submit {
+    display: block;
+    width: 100%;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_container {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_container.showGrade {
+    display: none;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_container.showTempGrade {
+    display: none;
+}
+
+.os101_simpleQuiz_grade {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 3;
+    text-align: center;
+    align-items: center;
+}
+
+.os101_simpleQuiz_grade h3 {
+    display: flex !important;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.os101_simpleQuiz_grade.hideGrade {
+    display: none;
+}
+
+.os101_simpleQuiz_grade.hideTempGrade {
+    display: none;
+}
+
+.os101_simpleQuiz_overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-dark);
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_nav {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_nav.left {
+    left: -25px;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_nav.right {
+    right: -25px;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_question.noshow {
+    display: none;
+}
+
+.os101_simpleQuiz .os101_simpleQuiz_questionStat {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}

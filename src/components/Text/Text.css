@@ -1,0 +1,9 @@
+.textContainer .slideContent p, .textContainer .slideContent ul {
+    display: block;
+    width: 100%;
+}
+
+.textContainer .slideContent h1, .textContainer .slideContent h2, .textContainer .slideContent h3, .textContainer .slideContent h4, .textContainer .slideContent h5, .textContainer .slideContent h6 {
+    display: block;
+    width: 100%;
+}

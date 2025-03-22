@@ -1,0 +1,19 @@
+.os101_simpleArrowButton {
+    position: relative;
+    padding: 0;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 20px !important;
+    line-height: 45px !important;
+    text-align: center;
+}
+
+.os101_simpleArrowButton svg {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

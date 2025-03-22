@@ -1,0 +1,62 @@
+.os101_simpleSingleChoice {
+    display: block;
+    width: 100%;
+}
+
+.os101_simpleSingleChoice h3 {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.os101_simpleSingleChoice img {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    display: block;
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.os101_simpleSingleChoice img:hover, .os101_simpleSingleChoice img:active, .os101_simpleSingleChoice img:focus {
+    opacity: 0.65;
+}
+
+.os101_simpleSingleChoice form {
+    box-sizing: border-box;
+    background-color: #E1E1E1;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.15);
+}
+
+.os101_simpleSingleAnswer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.os101_simpleSingleAnswer input {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.os101_simpleSingleAnswer label {
+    display: block;
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding-left: 7px;
+}

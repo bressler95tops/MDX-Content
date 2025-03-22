@@ -1,0 +1,362 @@
+body {
+    background-color: var(--bg-light) !important;
+}
+
+.os101Content.simpleContent .os101Content_container h1, .os101Content.simpleContent .os101Content_container h2:not(.accordion-header), .os101Content.simpleContent .os101Content_container h3, .os101Content.simpleContent .os101Content_container h4, .os101Content.simpleContent .os101Content_container h5, .os101Content.simpleContent .os101Content_container h6 {
+    display: block;
+    width: 100%;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.os101Content.simpleContent .os101Content_container h1, .os101Content.simpleContent .os101Content_container h2:not(.accordion-header), .os101Content.simpleContent .os101Content_container h3, .os101Content.simpleContent .os101Content_container h4, .os101Content.simpleContent .os101Content_container h5, .os101Content.simpleContent .os101Content_container h6 {
+    margin-bottom: 24px;
+}
+
+.os101Content.simpleContent .os101Content_container h2:not(.accordion-header):after, .os101Content.simpleContent .os101Content_container h3:after, .os101Content.simpleContent .os101Content_container h4:after, .os101Content.simpleContent .os101Content_container h5:after, .os101Content.simpleContent .os101Content_container h6:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: var(--divider);
+    margin-top: 12px;
+}
+
+.os101Content.simpleContent .os101Content_container h1 {
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #CCC;
+}
+
+.os101Content.simpleContent .os101Content_container h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container h5 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container h6 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container p, .os101Content.simpleContent .os101Content_container div, .os101Content.simpleContent .os101Content_container li, .os101Content.simpleContent .os101Content_container table td, .os101Content.simpleContent .os101Content_container table th {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+.os101Content.simpleContent .os101Content_container p {
+    margin-bottom: 15px;
+}
+
+.os101Content.simpleContent .os101Content_container p strong, .os101Content.simpleContent .os101Content_container div strong, .os101Content.simpleContent .os101Content_container li strong, .os101Content.simpleContent .os101Content_container table td strong, .os101Content.simpleContent .os101Content_container table th strong {
+    color: #222;
+}
+
+.os101Content.simpleContent .os101Content_container a strong {
+    color: var(--primary-button-bg);
+}
+
+.os101Content.simpleContent .os101Content_container hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #AAA;
+}
+
+.os101Content.simpleContent .os101Content_container table {
+    margin-bottom: 30px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.os101Content.simpleContent .os101Content_container table tr:nth-child(even) td {
+    background-color: #E1E1E1;
+}
+
+.os101Content.simpleContent .os101Content_container table th, .os101Content.simpleContent .os101Content_container table td {
+    border: none;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.os101Content.simpleContent .os101Content_container table tr th {
+    background-color: var(--bg-dark);
+    color: #FFF;
+    border-right: 1px solid #CCC;
+    font-weight: 700;
+}
+
+.os101Content.simpleContent .os101Content_container table tr th:last-of-type {
+    border-right: none;
+}
+
+.os101Content.simpleContent .os101Content_container table tr td {
+    border-right: 1px solid #CCC;
+}
+
+.os101Content.simpleContent .os101Content_container table tr td:last-of-type {
+    border-right: none;
+}
+
+.os101Content.simpleContent .os101Content_container table tr {
+    border-bottom: 1px solid #CCC;
+}
+
+.os101Content.simpleContent .form-control:disabled {
+    background-color: #C9C9C9;
+}
+
+.os101Content.simpleContent .btn.btn-primary:hover, .os101Content.simpleContent .btn.btn-primary:active, .os101Content.simpleContent .btn.btn-primary:focus  {
+    filter: initial;
+    opacity: 0.65;
+    background-color: var(--primary-button-bg);
+    border-color: var(--primary-button-bg);
+}
+
+.os101Content.simpleContent a:not(.btn), .os101Content.simpleContent .os101Content_container p a:not(.btn), .os101Content.simpleContent .os101Content_container div a:not(.btn), .os101Content.simpleContent .os101Content_container li a:not(.btn), .os101Content.simpleContent .os101Content_container table a:not(.btn) {
+    color: var(--primary-button-bg);
+}
+
+.os101Content.simpleContent a:not(.btn):hover, .os101Content.simpleContent a:not(.btn):active, .os101Content.simpleContent a:not(.btn):focus {
+    opacity: 0.65;
+}
+
+.os101Content.simpleContent a:not(.btn) {
+    word-break: break-all;
+}
+
+.os101Content.simpleContent .os101Content_container {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar {
+    display: block;
+    width: 300px;
+    height: 100%;
+    background-color: #FFF;
+    border-right: 1px solid #CCC;
+    box-sizing: border-box;
+    padding: 0px;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.07);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.07);
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.07);
+    z-index: 6;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar .os101SimpleSideBar_navigation {
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar h2 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 0;
+    padding-top: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    border-top: 1px solid #CCC;
+    
+}
+
+.os101Content.simpleContent .os101SimpleSideBar h2:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li:last-of-type {
+    border-bottom: none;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: left;
+    color: #222;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li a .os101Simple_ProgressIndicator {
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin-bottom: -3px;
+    margin-right: 7px;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li.active a {
+    background-color: var(--bg-dark);
+    color:#FFF;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li a:hover, .os101Content.simpleContent .os101SimpleSideBar ul li a:active, .os101Content.simpleContent .os101SimpleSideBar ul li a:focus {
+    opacity: 1;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li:not(.active) a:hover, .os101Content.simpleContent .os101SimpleSideBar ul li:not(.active) a:active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.os101Content.simpleContent .os101SimpleSideBar ul li.complete a .os101Simple_ProgressIndicator:after {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--primary-button-bg);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/images/check-solid-01.png');
+    background-size: cover;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar .os101SimpleLogo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: var(--logo-shiny);
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.os101Content.simpleContent .os101SimpleSideBar .os101SimpleLogo img {
+    display: inline-block;
+    height: 80px;
+    width: auto;
+}
+
+.os101Content.simpleContent .simpleContent_wrapper:not(.canvasContent_wrapper) {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: auto;
+    z-index: 5;
+}
+
+.os101Content.canvasContent .simpleContent_wrapper.canvasContent_wrapper {
+    display: block;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.os101Content.simpleContent .os101Content_container img {
+    max-width: 100%;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.os101Content.simpleContent .os101Content_container table img {
+    margin-bottom: 0;
+}
+
+.os101_simpleTabs {
+    margin-bottom: 30px;
+}
+
+.os101_copycode {
+    max-width: 450px;
+}
+
+@media(max-width: 991.9px) {
+    .os101Content.simpleContent .os101SimpleSideBar {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .os101Content.simpleContent .simpleContent_wrapper:not(.canvasContent_wrapper) {
+        width: 100%;
+    }
+}
+
+@media(min-width: 992px) {
+    .os101Content.simpleContent .os101SimpleSideBar {
+        position: relative;
+    }
+
+    .os101Content.simpleContent .simpleContent_wrapper:not(.canvasContent_wrapper) {
+        width: calc(100% - 300px);
+    }
+}

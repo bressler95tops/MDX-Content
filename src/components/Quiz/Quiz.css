@@ -1,0 +1,94 @@
+.slide.quizContainer {
+    background-color: var(--bg-dark);
+}
+
+.quizContainer .slideContent {
+    position: relative;
+    background-color: var(--bg-light);
+    width: calc(100% - 48px);
+    max-width: 768px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    -webkit-box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.25);
+    box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.25);
+}
+
+.quizContainer .slideContent h2 {
+    color: var(--text-title);
+    text-align: center;
+}
+
+.quizContainer .slideContent p {
+    text-align: center;
+    color: var(--text-paragraph);
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.quizContainer .slideContent p span {
+    display: inline-block;
+    font-weight: 600;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+}
+
+.quizContainer .slideContent p.pass {
+    color: var(--status-success);
+}
+
+.quizContainer .slideContent p.pass span {
+    background-color: var(--status-success);
+    color:#FFF;
+}
+
+.quizContainer .slideContent p.nopass span {
+    background-color: var(--status-error);
+    color: #FFF;
+}
+
+.quizContainer .quizNavButton {
+    position: absolute;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quizContainer .quizNavButton:first-of-type {
+    left:-25px;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+.quizContainer .quizNavButton:last-of-type {
+    right:-25px;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+.quizQuestions .question {
+    text-align: center;
+}
+
+.quizButtons {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.quizButtons button {
+    margin-right: 7px;
+}
+
+@media(max-width: 767.9px) {
+    
+}
+
+@media(min-width: 768px) {
+    
+}

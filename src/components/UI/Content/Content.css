@@ -1,0 +1,9 @@
+.os101Content {
+    scroll-behavior: smooth;
+}
+
+.os101Content_container {
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,206 @@
+.os101_simpleContentSlider {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_container {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFF;
+    width: 100%;
+    max-width: 992px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeTextContainer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer .os101_simpleContentSlider_rangeText {
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer .os101_simpleContentSlider_rangeText .os101_simpleContentSlider_rangeTextinner {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.3rem;
+    background-color: #E1E1E1;
+    color: #333;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 0;
+    padding: 0;
+    height: 0; 
+    visibility: hidden;
+    opacity: 0;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer .os101_simpleContentSlider_rangeText .os101_simpleContentSlider_rangeTextinner.show {
+    min-height: 100%;
+    padding: 10px 5px;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangelabels {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangelabels label {
+    display: block;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 700;
+    color: #333
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangelabels label:first-of-type {
+    text-align: left;
+    padding-right: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangelabels label:last-of-type {
+    text-align: right;
+    padding-left: 5px;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeDots {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeDots .rangeDot { 
+    display: block;
+    bottom: 5px;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: var(--rangeColorDark);
+    border-radius: 50%;
+    
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-webkit-slider-thumb {
+    background-color: var(--rangeColor);
+    transform: scale(1.2);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-moz-range-thumb {
+    background-color: var(--rangeColor);
+    transform: scale(1.2);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-webkit-slider-thumb:active {
+    background-color: var(--rangeColorDark);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-moz-range-thumb:active {
+    background-color: var(--rangeColorDark);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-webkit-slider-runnable-track {
+    background-color: var(--rangeColorDark);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range::-moz-range-track {
+    background-color: var(--rangeColorDark);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 1px #fff,0 0 0 .25rem var(--rangeColorAlpha);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 1px #fff,0 0 0 .25rem var(--rangeColorAlpha);
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range:disabled::-webkit-slider-thumb {
+    background-color: #CCC;
+}
+
+.os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .form-range:disabled::-moz-range-thumb {
+    background-color: #CCC;
+}
+
+@media(max-width: 767.9px) {
+    .os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer .os101_simpleContentSlider_rangeText {
+        width: 100% !important;
+        margin-bottom: 5px;
+    }
+
+    .os101_simpleContentSlider .os101_simpleContentSlider_container {
+        padding: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media(min-width: 768px) {
+    .os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeTextContainer {
+        min-height: 80px;
+    }
+
+    .os101_simpleContentSlider .os101_simpleContentSlider_range .os101_simpleContentSlider_rangeControls .os101_simpleContentSlider_rangeSlider .os101_simpleContentSlider_rangeTextContainer .os101_simpleContentSlider_rangeText {
+        margin-right: 5px;
+    }
+
+    .os101_simpleContentSlider .os101_simpleContentSlider_container {
+        padding: 50px;
+    }
+}

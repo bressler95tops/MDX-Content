@@ -1,0 +1,125 @@
+.os101_simpleSpectrumImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1025px;
+    height: auto;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot {
+    display: block;
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumButton {
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    color: var(--bg-dark);
+    font-size: 14px;
+    line-height: 1.7rem;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+    font-weight: 700;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: var(--bg-dark);
+    color: #FFF;
+    bottom: 35px;
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text p,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text ul,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text li,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text ol,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text span,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text label,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text div,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text strong,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h1,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h2,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h3,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h4,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h5,
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text h6 {
+    color: #FFF;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text p {
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot.left .os101_simpleSpectrumDot_text {
+    left: -20px;
+    transform-origin: bottom left;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot.right .os101_simpleSpectrumDot_text {
+    right: -20px;
+    transform-origin: bottom right;
+}
+
+.os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot .os101_simpleSpectrumDot_text:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 7.5px 13.0px 7.5px;
+    border-color: transparent transparent var(--bg-dark) transparent;
+    transform: rotate(180deg);
+    bottom: -13px;
+ }
+
+ .os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot.left .os101_simpleSpectrumDot_text:after {
+    left: 15px;
+ }
+
+ .os101_simpleSpectrumImage .os101_simpleSpectrumImage_container .os101_simpleSpectrumDot.right .os101_simpleSpectrumDot_text:after {
+    right: 15px;
+ }

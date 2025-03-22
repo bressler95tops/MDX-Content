@@ -1,0 +1,73 @@
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_inner {
+    display: block;
+    background-color: #FFF;
+    border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_image {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    width: 100%;
+    background-color: #000;
+    height: 0;
+    padding-bottom: 50%;
+    background-position: center;
+    background-size: auto 120%;
+}
+
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_image:hover {
+    background-size: auto 130%;
+}
+
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_content {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_content a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.os101_simpleModuleStart .os101_simpleModuleStart_module .os101_simpleModuleStart_content a svg {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+@media(max-width: 767.9px) {
+    .os101_simpleModuleStart .os101_simpleModuleStart_module {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 24px;
+    }
+}
+
+@media(min-width: 768px) {
+    .os101_simpleModuleStart .os101_simpleModuleStart_module {
+        padding-left: 0;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
+}
